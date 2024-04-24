@@ -1,0 +1,10 @@
+@use 'globalValues' as gv;
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  background-color: gv.$secondary-color;
+}
