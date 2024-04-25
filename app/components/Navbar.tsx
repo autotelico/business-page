@@ -26,7 +26,7 @@ export default function Navbar(): JSX.Element {
       <div
         className={
           !nav
-            ? 'fixed left-[-100%] ease-in-out duration-500'
+            ? 'fixed left-[-100%] ease-in-out duration-500 top-0'
             : 'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500'
         }
       >
