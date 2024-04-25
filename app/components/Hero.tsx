@@ -6,7 +6,7 @@ export default function Hero(): JSX.Element {
     const primaryColor = '#00df9a'
 
   return (
-    <div className="text-white">
+    <div id='hero' className="text-white">
       <div className="max-w-[800px] w-full h-screen mx-auto text-center flex flex-col">
         <p className="uppercase text-[#00df9a] font-bold p-2">
           Growing with data analytics
@@ -25,7 +25,7 @@ export default function Hero(): JSX.Element {
             loop
           />
         </div>
-        <p className='md:text-2xl text-xl md:p-2 p-1 text-gray-500'>Monitor your data analytics to increase revenue for BTB, BTC, & SASS platforms.</p>
+        <p className='md:text-2xl text-xl md:p-2 p-1 text-gray-500'>Monitor your data analytics to increase revenue for BTB, BTC, & SaaS platforms.</p>
         <button className={`bg-[${primaryColor}] w-[200px] mx-auto rounded-md p-2 py-3 mt-2 text-black font-bold cursor-pointer`}>Get Started</button>
       </div>
     </div>
