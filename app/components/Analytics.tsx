@@ -1,3 +1,4 @@
+'use client'
 import Laptop from '@/public/laptop.jpg';
 
 export default function Analytics(): JSX.Element {
@@ -17,7 +18,8 @@ export default function Analytics(): JSX.Element {
             ab excepturi in et doloremque autem quasi eligendi accusamus! Saepe
             ea praesentium odio sunt. Autem.
           </p>
-          <button className="block mx-auto text-[#00df9a] bg-black w-[200px] md:mx-0 rounded-md py-3 mt-4 font-bold cursor-pointer">
+          <button className="block mx-auto text-[#00df9a] bg-black w-[200px] md:mx-0 rounded-md py-3 mt-4 font-bold cursor-pointer"
+          onClick={() => alert('This button doesn\'t work as of yet!')}>
             Get Started
           </button>
         </div>
