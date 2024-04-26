@@ -1,3 +1,4 @@
+'use client'
 export default function Newsletter(): JSX.Element {
   return (
     <div id="newsletter" className="text-white w-full py-16 px-4">
@@ -15,7 +16,8 @@ export default function Newsletter(): JSX.Element {
                 type="text"
                 placeholder="Enter your email"
               />
-              <button className="bg-[#00df9a] w-[200px] font-medium rounded-md py-3 px-6 text-black ml-4 my-6">
+              <button className="bg-[#00df9a] w-[200px] font-medium rounded-md py-3 px-6 text-black ml-4 my-6"
+              onClick={() => alert("Thanks for subscribing! However, this is just a template. We can make a real newsletter for you, if you want :)")}>
                 Notify Me
               </button>
           </div>

@@ -1,3 +1,4 @@
+'use client'
 import { v4 as uuidv4 } from 'uuid';
 import Single from '@/public/single.png';
 import Double from '@/public/double.png';
@@ -80,9 +81,14 @@ function CardUnit({ plan }: { plan: Plan }): JSX.Element {
         <p className="border-t w-full text-center">
           {plan.allowedUsers} {plan.allowedUsers > 1 ? 'Users' : 'User'} Allowed
         </p>
-        <p className="border-t w-full text-center">Send up to {plan.sendUpTo}</p>
+        <p className="border-t w-full text-center">
+          Send up to {plan.sendUpTo}
+        </p>
       </div>
-      <button className='w-[200px] text-xl bg-[#00df9a] text-black my-3 py-3 rounded-md'>Start Trial</button>
+      <button className="w-[200px] text-xl bg-[#00df9a] text-black my-3 py-3 rounded-md"
+      onClick={() => alert("No trials as of yet. This is a template!")}>
+        Start Trial
+      </button>
     </div>
   );
 }

@@ -26,7 +26,7 @@ export default function Hero(): JSX.Element {
           />
         </div>
         <p className='md:text-2xl text-xl md:p-2 p-1 text-gray-500'>Monitor your data analytics to increase revenue for BTB, BTC, & SaaS platforms.</p>
-        <button className={`bg-[${primaryColor}] w-[200px] mx-auto rounded-md p-2 py-3 mt-2 text-black font-bold cursor-pointer`}>Get Started</button>
+        <button className={`bg-[${primaryColor}] w-[200px] mx-auto rounded-md p-2 py-3 mt-2 text-black font-bold cursor-pointer`} onClick={() => alert("You clicked the button! However, this is a template. It won\'t do anything :\')")}>Get Started</button>
       </div>
     </div>
   );
