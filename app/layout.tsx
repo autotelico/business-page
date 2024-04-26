@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://business-page-lake.vercel.app/'),
-  title: "Landing Page",
+  title: "Lake - Landing Page",
   description: "A sophisticated, elegant landing page that makes your business's style futuristic.",
   openGraph: {
     images: '/atom-64px.png'
